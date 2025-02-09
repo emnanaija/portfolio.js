@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "Ibudget",
-    description: "FinTech project aimed at democratizing access to financial services in Tunisia.An integrated digital solution for budget management and categorization, virtual account creation, payments, savings, investments, and insurance",
+    description: "FinTech project aimed at democratizing access to financial services in Tunisia.An integrated digital solution for budget management and categorization, virtual account creation, payments, savings, investments, and insurance.Built with Spring Boot, Angular, ORM, and MySQL.",
     image: "/images/projects/unnamed.jpg",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "E-bank Website",
-    description: "FinTech project aimed at democratizing access to financial services in Tunisia.An integrated digital solution for budget management and categorization, virtual account creation, payments, savings, investments, and insurance.Built with Spring Boot, Angular, ORM, and MySQL.",
+    description: "An online banking platform developed with Symfony, Doctrine ORM, and MySQL. This site allows customers to manage their accounts, make transfers, and handle loans and insurance, all with an optimized and secure user experience.",
     image: "/images/projects/mock4.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/emnanaija/-website-ebank2-symfony",
