@@ -7,15 +7,24 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Ibudget",
+    description: "FinTech project aimed at democratizing access to financial services in Tunisia.An integrated digital solution for budget management and categorization, virtual account creation, payments, savings, investments, and insurance",
+    image: "/images/projects/unnamed.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+
+  },
+  {
+    id: 2,
     title: "E-bank Website",
-    description: "A web application dedicated to the clients of a bank, developed with Symfony, Twig, and MySQL. This application allows users to become clients by verifying with the reCaptcha API. It enables them to manage their accounts, transfers, cards, and checks, as well as their loans and insurance. This application offers several features such as sending transaction emails, sending SMS notifications when an account is deactivated, downloading PDFs for sent checks, and many other functionalities.",
+    description: "FinTech project aimed at democratizing access to financial services in Tunisia.An integrated digital solution for budget management and categorization, virtual account creation, payments, savings, investments, and insurance.Built with Spring Boot, Angular, ORM, and MySQL.",
     image: "/images/projects/mock4.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/emnanaija/-website-ebank2-symfony",
    
   },
   {
-    id: 2,
+    id: 3,
     title: "E-bank Application",
     description: "  Desktop application designed for bank clients developed with JavaFX, Scene Builder, and MySQL. This application features various functionalities including secure authentication using Face ID, management of your savings accounts, transfers, credits, and insurances. You can download your transactions as PDFs, send email notifications for account deactivation requests, scan a QR code to extract encrypted information from your checks, and receive SMS notifications when a credit request is approved",
     image: "/images/projects/mock3.png",
@@ -24,7 +33,7 @@ const projectsData = [
   
   },
   {
-    id: 3,
+    id: 4,
     title: "Ticket easy Website",
     description: "A platform for selling and managing tickets for cinemas. This application enables online ticket booking, management of movie sessions and cinema halls, thereby facilitating access to services and enhancing the user experience,developed with HTML, CSS, JavaScript, and PHP."
 
@@ -35,7 +44,7 @@ const projectsData = [
     
   },
   {
-    id: 4,
+    id: 5,
     title: "Gestion-air  Application",
     description: "A desktop application for data management and Arduino for controlling peripheral systems. This application is designed to manage airport operations, including flight planning and tracking, thus optimizing operational processes and enhancing airport security,developed with C++,Oracle and Arduino",
     image: "/images/projects/mock1.png",
@@ -43,6 +52,7 @@ const projectsData = [
     gitUrl: "/",
 
   }
+  
 ];
 
 const ProjectsSection = () => {

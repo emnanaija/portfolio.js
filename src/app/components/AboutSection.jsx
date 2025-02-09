@@ -8,7 +8,13 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
+      
       <ul className="list-disc pl-2">
+        <li>Angular</li>
+        <li>SpringBoot</li>
+        <li>React</li>
+        <li>NodeJs</li>
+        <li>React</li>
         <li>Symfony</li>
         <li>MySql</li>
         <li>JavaFX</li>
@@ -25,7 +31,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         
-        <li>Currently at the 3rd class at Esprit,Tunisia</li>
+        <li>Currently at the  4th class at Esprit,Tunisia</li>
       </ul>
     ),
   }
@@ -48,12 +54,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer and Desktop Application developer  with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, HTML, CSS,pHP,Symfony,Javafx and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set .
-            i am passionate about financial engineering and seek opportunities to develop my skills in this field.. I am a team player and
-            I am excited to work with others to create amazing applications.
+          I am an engineering student specializing in financial computing, with a passion for developing interactive and responsive web and desktop applications. I have experience working with technologies such as JavaScript, HTML, CSS, PHP, Symfony, JavaFX, SpringBoot, Angular, and Git. I also have a strong background in working with ORM  tools. Currently, I am focused on developing financial technology solutions, including budgeting tools, virtual account management, and integrated payment and investment systems. My recent projects, such as Ibudget, aim to democratize access to financial services in Tunisia. I am constantly seeking to expand my skills in both software development and financial engineering. I am a team player, eager to collaborate with others to create innovative and impactful applications in the financial sector.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
